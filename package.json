@@ -1,0 +1,21 @@
+{
+  "name": "2025573010054_algoritma_dan_struktur_data",
+  "version": "1.0.0",
+  "description": "Nim     :2025573010054\r Nama    :M.Nazar Ikramullah\r Alamat  :Desa Asan Lhoksukon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadnazarikramullah-ai/2025573010054_Algoritma_Dan_Struktur_Data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/muhammadnazarikramullah-ai/2025573010054_Algoritma_Dan_Struktur_Data/issues"
+  },
+  "homepage": "https://github.com/muhammadnazarikramullah-ai/2025573010054_Algoritma_Dan_Struktur_Data#readme"
+}
