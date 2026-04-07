@@ -24,6 +24,7 @@ for (let i = 1; i <= 20; i++) {
     process.stdout.write(i + " "); // cetak di baris yang sama
   }
 }
+
 console.log(""); // pindah baris
 // --- BREAK dan CONTINUE ---
 console.log("\n=== Break dan Continue ===");
@@ -37,35 +38,4 @@ for (let i = 1; i <= 10; i++) {
     break; // hentikan loop di angka 8
   }
   console.log(`Angka: ${i}`);
-}
-
-// Latihan 3
-
-// ===============================================
-// Bagian A - Segitiga Bintang (versi alternatif)
-// ================================================
-
-let bintang = "";
-
-for (let i = 1; i <= 5; i++) {
-  bintang += "*"; // tambah 1 bintang setiap loop
-  console.log(bintang);
-}
-
-// =================================================
-// Bagian B - Bilangan prima 1-50 (versi alternatif)
-// =================================================
-
-for (let angka = 2; angka <= 50; angka++) {
-  let pembagi = 0;
-
-  for (let i = 1; 1 <= angka; i++) {
-    if (angka % i === 0) {
-      pembagi++; // hitung berapa kali habis dibagi
-    }
-  }
-
-  // bilangan prima punya tepat 2 pembagi  (1 dan dirinya sendiri)
-  if (pembagi === 2) {
-  }
 }
